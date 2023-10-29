@@ -75,11 +75,15 @@
 
 @media (max-width: 550px) {
   .containerHeader{
-    max-width: 90%;
-    font-size: 50px;
+    max-width: 100%;
+    font-size: 38px;
+    margin-top: 0px;
   }
   .containerMain{
     max-width: 90%;
-    font-size: 22px;
+    font-size: 17px;
+  }
+  .containerFooter{
+    margin-top: -45px;
   }
 }

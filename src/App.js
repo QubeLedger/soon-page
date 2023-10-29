@@ -1,5 +1,5 @@
-import qube from "./images/QubeLogo.PNG"
-import button from "./images/qubebutton.PNG"
+import qube from "./images/logo.png"
+import button from "./images/button.png"
 import './App.css';
 
 function App() {
