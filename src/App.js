@@ -1,6 +1,10 @@
 import qube from "./images/logo.png"
-import button from "./images/button.png"
+import github from "./images/github.svg"
+import twitter from "./images/twitter.svg"
+import tg from "./images/tg.svg"
 import './App.css';
+import { GitHub, Telegram, Twitter } from "./function";
+
 
 function App() {
     return (
@@ -17,7 +21,18 @@ function App() {
                     <a>Qube is blockchain ecosystem of algorithmic stablecoins powering decentralized finance for everyone.</a>
                 </div>
                 <div className="containerFooter">
-                    <img className="button" src={button}></img>
+                    <button className="link" onClick={Twitter}>
+                        <h3>Twitter</h3>
+                        <img className="imgLink" src={twitter}></img>
+                    </button>
+                    <button className="link" onClick={GitHub}>
+                        <h3>GitHub</h3>
+                        <img className="imgLink" src={github}></img>
+                    </button>
+                    <button className="link" onClick={Telegram}>
+                        <h3>Telegram</h3>
+                        <img className="imgLink" src={tg}></img>
+                    </button>
                 </div>
             </div>
         </div>
