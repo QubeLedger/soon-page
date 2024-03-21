@@ -4,10 +4,11 @@ import twitter from "./images/twitter.svg"
 import tg from "./images/tg.svg"
 import './App.css';
 import { GitHub, Telegram, Twitter } from "./function";
-
+import { Analytics } from '@vercel/analytics/react';
 
 function App() {
     return (
+        <body>
         <div className="App">
             <div className="header">
                 <img className="qubeLogo" src={qube}></img>
@@ -36,6 +37,8 @@ function App() {
                 </div>
             </div>
         </div>
+        <Analytics />
+        </body>
     );
 }
 
