@@ -4,7 +4,6 @@ import twitter from "./images/twitter.svg"
 import tg from "./images/tg.svg"
 import './App.css';
 import { GitHub, Telegram, Twitter } from "./function";
-import { Analytics } from '@vercel/analytics/react';
 
 function App() {
     return (
@@ -37,7 +36,6 @@ function App() {
                 </div>
             </div>
         </div>
-        <Analytics />
         </body>
     );
 }
